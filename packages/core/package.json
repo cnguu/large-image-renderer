@@ -2,7 +2,7 @@
   "name": "@cnguu/large-image-renderer",
   "type": "module",
   "version": "1.0.0",
-  "description": "High-performance Large-image Rendering Solution, Compatible with Chromium/Non-Chromium Browsers.高性能大图渲染解决方案，适配 Chromium / 非 Chromium 浏览器",
+  "description": "High-performance Canvas Large Image Rendering Solution, Compatible with Chromium/Non-Chromium Browsers. 高性能 canvas 渲染大图解决方案，适配 Chromium / 非 Chromium 浏览器",
   "license": "MIT",
   "homepage": "https://github.com/cnguu/large-image-renderer",
   "repository": {
