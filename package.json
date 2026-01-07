@@ -1,0 +1,28 @@
+{
+  "name": "@cnguu/large-image-renderer",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "rimraf --glob packages/*/dist && pnpm -r --filter=./packages/* run build",
+    "build:core": "rimraf packages/core/dist && pnpm -C packages/core run build",
+    "build:play": "rimraf packages/playground/dist && pnpm -C packages/playground run build",
+    "coverage": "vitest run --coverage",
+    "lint": "eslint .",
+    "lint:fix": "pnpm lint --fix",
+    "play": "pnpm build:core && pnpm -C packages/playground run dev",
+    "release": "bumpp",
+    "publish:core": "pnpm build:core && pnpm --filter @cnguu/large-image-renderer publish --access public --no-git-checks",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "catalog:",
+    "@types/node": "catalog:",
+    "bumpp": "catalog:",
+    "eslint": "catalog:",
+    "rimraf": "catalog:",
+    "typescript": "catalog:",
+    "unbuild": "catalog:",
+    "vitest": "catalog:"
+  }
+}

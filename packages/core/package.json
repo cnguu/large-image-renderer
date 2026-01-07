@@ -1,0 +1,42 @@
+{
+  "name": "@cnguu/large-image-renderer",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "High-performance Large-image Rendering Solution, Compatible with Chromium/Non-Chromium Browsers.高性能大图渲染解决方案，适配 Chromium / 非 Chromium 浏览器",
+  "license": "MIT",
+  "homepage": "https://github.com/cnguu/large-image-renderer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnguu/large-image-renderer.git"
+  },
+  "bugs": "https://github.com/cnguu/large-image-renderer/issues",
+  "keywords": ["large-image", "canvas", "image-renderer", "performance"],
+  "maintainers": [
+    {
+      "name": "cnguu",
+      "email": "gu642779596@gmail.com",
+      "url": "https://github.com/cnguu"
+    }
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "unbuild"
+  },
+  "devDependencies": {
+    "unbuild": "catalog:"
+  }
+}
