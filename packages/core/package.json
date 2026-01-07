@@ -1,7 +1,7 @@
 {
   "name": "@cnguu/large-image-renderer",
   "type": "module",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "High-performance Large-image Rendering Solution, Compatible with Chromium/Non-Chromium Browsers.高性能大图渲染解决方案，适配 Chromium / 非 Chromium 浏览器",
   "license": "MIT",
   "homepage": "https://github.com/cnguu/large-image-renderer",
