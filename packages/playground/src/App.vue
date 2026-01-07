@@ -7,7 +7,7 @@ const canvasId = 'test'
 onMounted(() => {
   largeImageRenderer({
     // imageUrl: '/eso1208a.png',
-    imageUrl: 'https://cdn.jsdelivr.net/gh/cnguu/large-image-renderer@main/packages/playground/src/public/eso1208a.png',
+    imageUrl: 'https://cdn.jsdelivr.net/gh/cnguu/large-image-renderer@main/packages/playground/public/eso1208a.png',
     canvas: canvasId,
   })
 })

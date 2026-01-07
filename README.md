@@ -1,6 +1,7 @@
 # large-image-renderer
 
 High-performance Large-image Rendering Solution, Compatible with Chromium/Non-Chromium Browsers.
+
 高性能大图渲染解决方案，适配 Chromium / 非 Chromium 浏览器
 
 [![release](https://badgen.net/github/release/cnguu/large-image-renderer)](https://github.com/cnguu/large-image-renderer/releases)
