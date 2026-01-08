@@ -42,3 +42,7 @@ onMounted(() => {
 }
 </style>
 ```
+
+## 参数
+
+[DrawBigImageOptions](https://github.com/cnguu/large-image-renderer/blob/main/packages/core/src/types.ts#L17-L67)
